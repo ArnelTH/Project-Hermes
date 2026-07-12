@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A10E472FFD8E2500DC7D2E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A10E462FFD8E2500DC7D2E /* WidgetKit.framework */; };
+		15A10E492FFD8E2500DC7D2E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A10E482FFD8E2500DC7D2E /* SwiftUI.framework */; };
+		15A10EB22FFDAB1500DC7D2E /* HermesProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 15A10EB12FFDAB1500DC7D2E /* HermesProtocol */; };
+		15A10EB42FFDACBD00DC7D2E /* HermesProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 15A10EB32FFDACBD00DC7D2E /* HermesProtocol */; };
+		15A10EB72FFDB49A00DC7D2E /* HermesControlWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 15A10E442FFD8E2500DC7D2E /* HermesControlWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15A10EB52FFDB47400DC7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159E7B992FFD40E60065754C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A10E432FFD8E2500DC7D2E;
+			remoteInfo = HermesControlWidgetExtension;
+		};
+		15A10EB82FFDB49A00DC7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159E7B992FFD40E60065754C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A10E432FFD8E2500DC7D2E;
+			remoteInfo = HermesControlWidgetExtension;
+		};
+		15A10EBB2FFDB4B400DC7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159E7B992FFD40E60065754C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A10E432FFD8E2500DC7D2E;
+			remoteInfo = HermesControlWidgetExtension;
+		};
+		15A10EBD2FFDB4CB00DC7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159E7B992FFD40E60065754C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A10E432FFD8E2500DC7D2E;
+			remoteInfo = HermesControlWidgetExtension;
+		};
+		15A10EBF2FFDB4D100DC7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159E7B992FFD40E60065754C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A10E432FFD8E2500DC7D2E;
+			remoteInfo = HermesControlWidgetExtension;
+		};
+		15A10EC12FFDB4DF00DC7D2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 159E7B992FFD40E60065754C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A10E432FFD8E2500DC7D2E;
+			remoteInfo = HermesControlWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15A10EBA2FFDB49A00DC7D2E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15A10EB72FFDB49A00DC7D2E /* HermesControlWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15A10E442FFD8E2500DC7D2E /* HermesControlWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HermesControlWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A10E462FFD8E2500DC7D2E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		15A10E482FFD8E2500DC7D2E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		15A10E622FFD981300DC7D2E /* HermesControlWidgetExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HermesControlWidgetExtensionRelease.entitlements; sourceTree = "<group>"; };
+		15A10E9C2FFDA74000DC7D2E /* HermesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BC3DB62FFF238200E25582 /* HermesControlWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HermesControlWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		15A10E572FFD8E2700DC7D2E /* Exceptions for "HermesControlWidget" folder in "HermesControlWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+		};
+		15A10EAE2FFDA90400DC7D2E /* Exceptions for "HermesApp" folder in "HermesControlWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HermesClient.swift,
+				MacIntent.swift,
+			);
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+		};
+		15A10EB02FFDA98000DC7D2E /* Exceptions for "HermesApp" folder in "HermesApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 15A10E9B2FFDA74000DC7D2E /* HermesApp */;
+		};
+		15BC3DB42FFF1F7B00E25582 /* Exceptions for "HermesControlWidget" folder in "HermesApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HermesIntents.swift,
+			);
+			target = 15A10E9B2FFDA74000DC7D2E /* HermesApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		15A10E4A2FFD8E2500DC7D2E /* HermesControlWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				15A10E572FFD8E2700DC7D2E /* Exceptions for "HermesControlWidget" folder in "HermesControlWidgetExtension" target */,
+				15BC3DB42FFF1F7B00E25582 /* Exceptions for "HermesControlWidget" folder in "HermesApp" target */,
+			);
+			path = HermesControlWidget;
+			sourceTree = "<group>";
+		};
+		15A10E9D2FFDA74100DC7D2E /* HermesApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				15A10EAE2FFDA90400DC7D2E /* Exceptions for "HermesApp" folder in "HermesControlWidgetExtension" target */,
+				15A10EB02FFDA98000DC7D2E /* Exceptions for "HermesApp" folder in "HermesApp" target */,
+			);
+			path = HermesApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A10E412FFD8E2500DC7D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A10E492FFD8E2500DC7D2E /* SwiftUI.framework in Frameworks */,
+				15A10E472FFD8E2500DC7D2E /* WidgetKit.framework in Frameworks */,
+				15A10EB42FFDACBD00DC7D2E /* HermesProtocol in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A10E992FFDA74000DC7D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A10EB22FFDAB1500DC7D2E /* HermesProtocol in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		159E7B982FFD40E60065754C = {
+			isa = PBXGroup;
+			children = (
+				15BC3DB62FFF238200E25582 /* HermesControlWidgetExtension.entitlements */,
+				15A10E622FFD981300DC7D2E /* HermesControlWidgetExtensionRelease.entitlements */,
+				15A10E9D2FFDA74100DC7D2E /* HermesApp */,
+				15A10E4A2FFD8E2500DC7D2E /* HermesControlWidget */,
+				15A10E452FFD8E2500DC7D2E /* Frameworks */,
+				159E7BA22FFD40E60065754C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		159E7BA22FFD40E60065754C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A10E442FFD8E2500DC7D2E /* HermesControlWidgetExtension.appex */,
+				15A10E9C2FFDA74000DC7D2E /* HermesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A10E452FFD8E2500DC7D2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A10E462FFD8E2500DC7D2E /* WidgetKit.framework */,
+				15A10E482FFD8E2500DC7D2E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A10E582FFD8E2700DC7D2E /* Build configuration list for PBXNativeTarget "HermesControlWidgetExtension" */;
+			buildPhases = (
+				15A10E402FFD8E2500DC7D2E /* Sources */,
+				15A10E412FFD8E2500DC7D2E /* Frameworks */,
+				15A10E422FFD8E2500DC7D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				15A10E4A2FFD8E2500DC7D2E /* HermesControlWidget */,
+			);
+			name = HermesControlWidgetExtension;
+			packageProductDependencies = (
+				15A10EB32FFDACBD00DC7D2E /* HermesProtocol */,
+			);
+			productName = HermesControlWidgetExtension;
+			productReference = 15A10E442FFD8E2500DC7D2E /* HermesControlWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		15A10E9B2FFDA74000DC7D2E /* HermesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A10EA42FFDA74200DC7D2E /* Build configuration list for PBXNativeTarget "HermesApp" */;
+			buildPhases = (
+				15A10E982FFDA74000DC7D2E /* Sources */,
+				15A10E992FFDA74000DC7D2E /* Frameworks */,
+				15A10E9A2FFDA74000DC7D2E /* Resources */,
+				15A10EBA2FFDB49A00DC7D2E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15A10EB62FFDB47400DC7D2E /* PBXTargetDependency */,
+				15A10EB92FFDB49A00DC7D2E /* PBXTargetDependency */,
+				15A10EBC2FFDB4B400DC7D2E /* PBXTargetDependency */,
+				15A10EBE2FFDB4CB00DC7D2E /* PBXTargetDependency */,
+				15A10EC02FFDB4D100DC7D2E /* PBXTargetDependency */,
+				15A10EC22FFDB4DF00DC7D2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				15A10E9D2FFDA74100DC7D2E /* HermesApp */,
+			);
+			name = HermesApp;
+			packageProductDependencies = (
+				15A10EB12FFDAB1500DC7D2E /* HermesProtocol */,
+			);
+			productName = HermesApp;
+			productReference = 15A10E9C2FFDA74000DC7D2E /* HermesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		159E7B992FFD40E60065754C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					15A10E432FFD8E2500DC7D2E = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					15A10E9B2FFDA74000DC7D2E = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 159E7B9C2FFD40E60065754C /* Build configuration list for PBXProject "HermesApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 159E7B982FFD40E60065754C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				159E7BAF2FFD414A0065754C /* XCLocalSwiftPackageReference "../HermesProtocol" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 159E7BA22FFD40E60065754C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */,
+				15A10E9B2FFDA74000DC7D2E /* HermesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A10E422FFD8E2500DC7D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A10E9A2FFDA74000DC7D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A10E402FFD8E2500DC7D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15A10E982FFDA74000DC7D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15A10EB62FFDB47400DC7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+			targetProxy = 15A10EB52FFDB47400DC7D2E /* PBXContainerItemProxy */;
+		};
+		15A10EB92FFDB49A00DC7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+			targetProxy = 15A10EB82FFDB49A00DC7D2E /* PBXContainerItemProxy */;
+		};
+		15A10EBC2FFDB4B400DC7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+			targetProxy = 15A10EBB2FFDB4B400DC7D2E /* PBXContainerItemProxy */;
+		};
+		15A10EBE2FFDB4CB00DC7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+			targetProxy = 15A10EBD2FFDB4CB00DC7D2E /* PBXContainerItemProxy */;
+		};
+		15A10EC02FFDB4D100DC7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+			targetProxy = 15A10EBF2FFDB4D100DC7D2E /* PBXContainerItemProxy */;
+		};
+		15A10EC22FFDB4DF00DC7D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15A10E432FFD8E2500DC7D2E /* HermesControlWidgetExtension */;
+			targetProxy = 15A10EC12FFDB4DF00DC7D2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		159E7BAA2FFD40E80065754C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		159E7BAB2FFD40E80065754C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A10E592FFD8E2700DC7D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HermesControlWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DNQT8NW53J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HermesControlWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HermesControlWidget;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Hermes requiert Face ID pour sécuriser le déverrouillage de votre ordinateur";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Hermes a besoin du réseau pour piloter le Mac depuis le widget.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnel.HermesApp.HermesControlWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		15A10E5A2FFD8E2700DC7D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HermesControlWidgetExtensionRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DNQT8NW53J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HermesControlWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HermesControlWidget;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Hermes requiert Face ID pour sécuriser le déverrouillage de votre ordinateur";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Hermes a besoin du réseau pour piloter le Mac depuis le widget.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnel.HermesApp.HermesControlWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		15A10EA52FFDA74200DC7D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HermesApp/HermesApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DNQT8NW53J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HermesApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Hermes utilise Face ID pour valider votre identité avant de transmettre l'ordre de déverrouillage sécurisé à votre Mac.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Hermes a besoin du réseau local pour communiquer avec le Mac.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnel.HermesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		15A10EA62FFDA74200DC7D2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HermesApp/HermesApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DNQT8NW53J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HermesApp/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Hermes utilise Face ID pour valider votre identité avant de transmettre l'ordre de déverrouillage sécurisé à votre Mac.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Hermes a besoin du réseau local pour communiquer avec le Mac.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnel.HermesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		159E7B9C2FFD40E60065754C /* Build configuration list for PBXProject "HermesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159E7BAA2FFD40E80065754C /* Debug */,
+				159E7BAB2FFD40E80065754C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A10E582FFD8E2700DC7D2E /* Build configuration list for PBXNativeTarget "HermesControlWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A10E592FFD8E2700DC7D2E /* Debug */,
+				15A10E5A2FFD8E2700DC7D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A10EA42FFDA74200DC7D2E /* Build configuration list for PBXNativeTarget "HermesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A10EA52FFDA74200DC7D2E /* Debug */,
+				15A10EA62FFDA74200DC7D2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		159E7BAF2FFD414A0065754C /* XCLocalSwiftPackageReference "../HermesProtocol" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../HermesProtocol;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15A10EB12FFDAB1500DC7D2E /* HermesProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159E7BAF2FFD414A0065754C /* XCLocalSwiftPackageReference "../HermesProtocol" */;
+			productName = HermesProtocol;
+		};
+		15A10EB32FFDACBD00DC7D2E /* HermesProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 159E7BAF2FFD414A0065754C /* XCLocalSwiftPackageReference "../HermesProtocol" */;
+			productName = HermesProtocol;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 159E7B992FFD40E60065754C /* Project object */;
+}

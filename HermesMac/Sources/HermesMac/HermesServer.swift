@@ -12,7 +12,7 @@ final class SessionMonitor: Sendable {
     static let shared = SessionMonitor()
 
     // Remplace par un nom de canal UNIQUE et secret
-    private let ntfyTopic = "hermes_alerte_arnel_b7f9a"
+    private let ntfyTopic = "--REMPLIR ICI--"
 
     private init() {}
 
@@ -32,8 +32,8 @@ final class SessionMonitor: Sendable {
 
     private func sendPushNotification() {
         // 🌟 Remplace par TES codes Telegram
-        let botToken = "8847792562:AAFdEo2_YL-5em6qer6bloHRiWYQiMQQDAA"
-        let chatId = "7507879042"
+        let botToken = "--REMPLIR ICI--"
+        let chatId = "--REMPLIR ICI--"
 
         guard let url = URL(string: "https://api.telegram.org/bot\(botToken)/sendMessage") else { return }
 
@@ -64,7 +64,7 @@ final class SessionMonitor: Sendable {
 
 final class HermesServer: @unchecked Sendable {
     private let listener: NWListener
-    private let port: NWEndpoint.Port = 8080
+    private let port: NWEndpoint.Port = --REMPLIR ICI--
 
     init() {
         self.listener = try! NWListener(using: .tcp, on: port)
@@ -75,7 +75,7 @@ final class HermesServer: @unchecked Sendable {
         let secOptions = tlsOptions.securityProtocolOptions
 
         // Notre clé maître secrète partagée (À ne jamais divulguer)
-        let secretKeyString = "HERMES_QUANTUM_KEY_2026_SECURE!@#"
+        let secretKeyString = "--REMPLIR ICI--"
         let identityString = "HermesClient"
 
         // Conversion en DispatchData pour l'API C de BoringSSL

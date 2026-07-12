@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:Hermes}/HermesMac",
+      "name": "Debug HermesMac (HermesMac)",
+      "target": "HermesMac",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug HermesMac (HermesMac)"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:Hermes}/HermesMac",
+      "name": "Release HermesMac (HermesMac)",
+      "target": "HermesMac",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release HermesMac (HermesMac)"
+    }
+  ]
+}

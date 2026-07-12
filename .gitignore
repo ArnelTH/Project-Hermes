@@ -1,0 +1,26 @@
+# Fichiers système macOS
+.DS_Store
+
+# Dossiers de compilation Xcode
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Fichiers Swift Package Manager
+.swiftpm/xcode/
+.build/
+
+# Fichiers de configuration locaux contenant des secrets (si tu en as créé)
+Secrets.swift
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

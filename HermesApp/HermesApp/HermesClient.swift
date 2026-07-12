@@ -44,7 +44,7 @@ final class HermesClient: Sendable {
             let tlsOptions = NWProtocolTLS.Options()
             let secOptions = tlsOptions.securityProtocolOptions
             
-            let secretKeyString = "HERMES_QUANTUM_KEY_2026_SECURE!@#"
+            let secretKeyString = "--REMPLIR ICI--"
             let identityString = "HermesClient"
             
             let pskData = secretKeyString.data(using: .utf8)!
